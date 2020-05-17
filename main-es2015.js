@@ -1171,6 +1171,7 @@ class GridComponent {
         }
         return false;
     }
+    // checks if the given algorithm found the final node
     checkIfFound(visitedNodes) {
         if (visitedNodes.length == 0) {
             return false;

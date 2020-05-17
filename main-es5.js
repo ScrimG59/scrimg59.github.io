@@ -1672,7 +1672,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }
 
           return false;
-        }
+        } // checks if the given algorithm found the final node
+
       }, {
         key: "checkIfFound",
         value: function checkIfFound(visitedNodes) {
