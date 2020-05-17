@@ -787,9 +787,7 @@ class GridComponent {
         else {
             document.getElementById('btn-visualize').textContent = 'Visualizing...';
             document.getElementById('btn-visualize').style.backgroundColor = '#ff0000';
-            if (this.checkVisited() || this.checkClosed()) {
-                this.clearVisitedNodes();
-            }
+            this.clearVisitedNodes();
             isRunning = true;
             this.visualizeAlgorithm();
         }
